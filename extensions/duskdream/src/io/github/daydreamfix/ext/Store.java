@@ -41,7 +41,7 @@ public final class Store {
 
     private static final String TAG = Daydream.TAG;
     private static final String STORE_JSON_URL =
-            "https://raw.githubusercontent.com/patapon888/Daydream-Everywhere/main/store.json";
+            "https://raw.githubusercontent.com/patapon888/morphe-patches/main/store/store.json";
     private static final String FAKE = "FAKE:";
     private static final int IMAGE_PROMOTIONAL_WIDE = 3;
     private static final int IMAGE_PREVIEW = 4;

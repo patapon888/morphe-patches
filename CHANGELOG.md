@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.0](https://github.com/patapon888/morphe-patches/releases/tag/v1.5.0) (2026-11-20)
+
+### Daydream
+* The app catalog (store.json and its icons) now comes from this repository
+* New XR category in discovery, with Wolvic
+
 ## [1.4.0](https://github.com/patapon888/morphe-patches/releases/tag/v1.4.0) (2026-11-20)
 
 First release from this repository: Daydream, Nova Launcher and Bejeweled Classic patches in one bundle.

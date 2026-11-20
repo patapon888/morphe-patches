@@ -29,6 +29,10 @@ The full list with descriptions is in [`patches-list.json`](patches-list.json).
 
 Runs Google Daydream on any arm64 phone without root. Patch all four Daydream apps with the same bundle: they must share a signature. Google sign-in goes through [MicroG RE](https://github.com/MorpheApp/MicroG-RE). Re-signed apps cannot be installed over Google-signed ones, so uninstall the originals first (this deletes their data).
 
+### Daydream catalog
+
+The Daydream discovery and store pages read [`store/store.json`](store/store.json), with pictures in [`store/icons`](store/icons). Each collection is a row in discovery; each app needs a `package`, `title`, `icon_url` (foreground) and `background_url`. Changes go live for everyone as soon as they are pushed to `main`.
+
 ## Build
 
 ```
