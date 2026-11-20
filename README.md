@@ -4,7 +4,7 @@ Patches for [Morphe](https://morphe.software) for Google Daydream, Nova Launcher
 
 ## Use
 
-In Morphe Manager or Morphe Desktop, Press [Here](https://morphe.software/add-source?github=patapon888%2morphe-patches) or add this repository as a patch source:
+In Morphe Manager or Morphe Desktop, Press [Here](https://morphe.software/add-source?github=patapon888/morphe-patches) or add this repository as a patch source:
 
 ```
 https://github.com/patapon888/morphe-patches
