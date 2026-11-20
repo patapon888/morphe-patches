@@ -4,7 +4,7 @@ Patches for [Morphe](https://morphe.software) for Google Daydream, Nova Launcher
 
 ## Use
 
-In Morphe Manager or Morphe Desktop, add this repository as a patch source:
+In Morphe Manager or Morphe Desktop, Press [Here](https://morphe.software/add-source?github=patapon888%2morphe-patches) or add this repository as a patch source:
 
 ```
 https://github.com/patapon888/morphe-patches
@@ -16,18 +16,18 @@ Or download the `.mpp` file from the [latest release](https://github.com/patapon
 
 | App | Package | Version | Patches |
 |---|---|---|---|
-| Google VR Services | `com.google.vr.vrcore` | 1.23.265693388 | Daydream Everywhere (VR Services) |
-| Daydream | `com.google.android.vr.home` | 1.23.190812026 | Daydream Everywhere (Daydream) |
-| Daydream Keyboard | `com.google.android.vr.inputmethod` | 1.23.190812016 | Daydream Everywhere (Keyboard) |
-| YouTube VR | `com.google.android.apps.youtube.vr` | 1.28.63 | Daydream Everywhere (YouTube VR) |
+| Google VR Services | `com.google.vr.vrcore` | 1.23.265693388 | DuskDream (VR Services) |
+| Daydream | `com.google.android.vr.home` | 1.23.190812026 | DuskDream (Daydream) |
+| Daydream Keyboard | `com.google.android.vr.inputmethod` | 1.23.190812016 | DuskDream (Keyboard) |
+| YouTube VR | `com.google.android.apps.youtube.vr` | 1.28.63 | DuskDream (YouTube VR) |
 | Nova Launcher | `com.teslacoilsw.launcher` | 9.0.0 | Enable Prime, Open in bubble (requires root) |
 | Bejeweled Classic | `com.ea.gp.bej3` | 4.0.0 (19300) | Unlock game modes, Remove purchases and ads, Remove boosters, Classic mode layout, Language setting and more |
 
 The full list with descriptions is in [`patches-list.json`](patches-list.json).
 
-### Daydream Everywhere
+### DuskDream
 
-Runs Google Daydream on any arm64 phone without root. Patch all four Daydream apps with the same bundle: they must share a signature. Google sign-in goes through [MicroG RE](https://github.com/MorpheApp/MicroG-RE). Re-signed apps cannot be installed over Google-signed ones, so uninstall the originals first (this deletes their data).
+Runs Google Daydream on any arm64 phone without root. Patch all three Daydream apps and YouTube with the same bundle: they must share a signature. Google sign-in goes through [MicroG RE](https://github.com/MorpheApp/MicroG-RE). Re-signed apps cannot be installed over Google-signed ones, so uninstall the originals first (this deletes their data).
 
 ### Daydream catalog
 
